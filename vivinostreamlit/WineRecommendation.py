@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 
 # Veri setini yükle
-df = pd.read_csv("/Users/mustafagul/Desktop/MY_PROJECTS/Personal_Projects/winestreamlit/vivinostreamlit/data/test2.csv")
+df = pd.read_csv("/vivinostreamlit/data/test2.csv")
 
 # Sayfa başlığı ve açıklama
 st.set_page_config(page_title="Wine Recommendation", page_icon="🍷", layout="wide")
